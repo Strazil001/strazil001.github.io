@@ -155,31 +155,31 @@ main ul li {
   font-size: 0.8rem;
 }
 
-main .main-left {
+.main-left {
   margin-left: 25%;
 }
 
-main .main-middle {
+.main-middle {
   margin-left: 50%;
 }
 
-main .main-middle-text {
+.main-middle-text {
   margin-left: 25%;
 }
 
-main .main-right {
+.main-right {
   margin-left: 75%;
 }
 
-main .main-right-text {
+.main-right-text {
   margin-left: 50%;
 }
 
-main .main-right-max {
+.main-right-max {
   margin-left: 95%;
 }
 
-main .main-right-max-text {
+.main-right-max-text {
   margin-left: 70%;
 }
 /*# sourceMappingURL=style.css.map */
