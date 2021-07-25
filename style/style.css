@@ -122,7 +122,14 @@ header .intro p {
 }
 
 main {
-  margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 2rem;
 }
 
 main #road-icon {
@@ -138,7 +145,7 @@ main i {
 }
 
 main h2, main h4 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: #566264;
   text-align: left;
 }
@@ -146,5 +153,33 @@ main h2, main h4 {
 main ul li {
   list-style: none;
   font-size: 0.8rem;
+}
+
+main .main-left {
+  margin-left: 25%;
+}
+
+main .main-middle {
+  margin-left: 50%;
+}
+
+main .main-middle-text {
+  margin-left: 25%;
+}
+
+main .main-right {
+  margin-left: 75%;
+}
+
+main .main-right-text {
+  margin-left: 50%;
+}
+
+main .main-right-max {
+  margin-left: 95%;
+}
+
+main .main-right-max-text {
+  margin-left: 70%;
 }
 /*# sourceMappingURL=style.css.map */
