@@ -80,12 +80,12 @@ body .hamburgernav #icon-close {
   margin-top: 1rem;
 }
 
-body header {
+header {
   width: 100%;
   padding: 4rem 2rem;
 }
 
-body header .intro {
+header .intro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,18 +102,18 @@ body header .intro {
   color: #424b4d;
 }
 
-body header .intro h1 {
+header .intro h1 {
   margin-top: 1rem;
   font-size: 1.7rem;
 }
 
-body header .intro h3 {
+header .intro h3 {
   margin-top: 1rem;
   color: #566264;
   letter-spacing: 0.1rem;
 }
 
-body header .intro p {
+header .intro p {
   width: 70%;
   text-align: right;
   font-size: 0.8rem;
@@ -121,29 +121,29 @@ body header .intro p {
   line-height: 1.2rem;
 }
 
-body main {
+main {
   margin-left: 2rem;
 }
 
-body main #road-icon {
+main #road-icon {
   font-size: 2.5rem;
   color: #566264;
   margin-top: 6rem;
 }
 
-body main i {
+main i {
   font-size: 1.5rem;
   color: #566264;
   margin: 1rem 0;
 }
 
-body main h2, body main h4 {
+main h2, main h4 {
   margin-top: 1rem;
   color: #566264;
   text-align: left;
 }
 
-body main ul li {
+main ul li {
   list-style: none;
   font-size: 0.8rem;
 }
