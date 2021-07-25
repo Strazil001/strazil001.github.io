@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Fredoka+One&display=swap");
 *,
 ::after,
 ::before {
@@ -43,7 +44,8 @@ body .hamburgernav {
 body .hamburgernav #links {
   z-index: -4;
   display: none;
-  margin-top: 0.3rem;
+  position: absolute;
+  margin-top: 0.4rem;
 }
 
 body .hamburgernav a {
@@ -51,8 +53,8 @@ body .hamburgernav a {
   color: antiquewhite;
   padding: 1rem;
   text-decoration: none;
-  font-size: 1.3rem;
-  font-family: 'Comfortaa';
+  font-size: 1rem;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 body .hamburgernav a:hover {
@@ -66,5 +68,50 @@ body .hamburgernav a.icon {
   top: 0;
   font-size: 2rem;
   margin-right: 2rem;
+}
+
+body .hamburgernav #icon-close {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+body header {
+  width: 100%;
+  padding: 4rem 3rem;
+}
+
+body header .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  font-family: 'Comfortaa', sans-serif;
+  color: #424b4d;
+}
+
+body header .intro h3 {
+  margin-top: 0.5rem;
+  color: #566264;
+}
+
+body header .intro p {
+  text-align: right;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  line-height: 1.2rem;
 }
 /*# sourceMappingURL=style.css.map */
