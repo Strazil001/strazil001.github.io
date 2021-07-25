@@ -14,6 +14,7 @@ body {
   width: 100vw;
   overflow-x: hidden;
   background-color: antiquewhite;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 body #triangle-top-right {
@@ -54,7 +55,6 @@ body .hamburgernav a {
   padding: 1rem;
   text-decoration: none;
   font-size: 1rem;
-  font-family: 'Comfortaa', sans-serif;
 }
 
 body .hamburgernav a:hover {
@@ -67,7 +67,7 @@ body .hamburgernav a.icon {
   right: 0;
   top: 0;
   font-size: 2rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 body .hamburgernav #icon-close {
@@ -76,13 +76,13 @@ body .hamburgernav #icon-close {
   right: 0;
   top: 0;
   font-size: 2rem;
-  margin-right: 3rem;
+  margin-right: 2rem;
   margin-top: 1rem;
 }
 
 body header {
   width: 100%;
-  padding: 4rem 3rem;
+  padding: 4rem 2rem;
 }
 
 body header .intro {
@@ -99,19 +99,52 @@ body header .intro {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 100%;
-  font-family: 'Comfortaa', sans-serif;
   color: #424b4d;
 }
 
+body header .intro h1 {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+
 body header .intro h3 {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   color: #566264;
+  letter-spacing: 0.1rem;
 }
 
 body header .intro p {
+  width: 70%;
   text-align: right;
   font-size: 0.8rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   line-height: 1.2rem;
+}
+
+body main {
+  margin-left: 2rem;
+}
+
+body main #road-icon {
+  font-size: 2.5rem;
+  color: #566264;
+  margin-top: 6rem;
+}
+
+body main i {
+  font-size: 1.5rem;
+  color: #566264;
+  margin: 1rem 0;
+}
+
+body main h2, body main h4 {
+  margin-top: 1rem;
+  color: #566264;
+  text-align: left;
+}
+
+body main ul li {
+  list-style: none;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=style.css.map */
