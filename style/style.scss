@@ -103,8 +103,9 @@ header{
 
 main{
 	display: flex;
+	width: 100%;
 	flex-direction: column;
-	margin: 0 2rem;
+	padding: 0 2rem;
 	#road-icon{
 		font-size: 2.5rem;
 		color: rgb(86, 98, 100);
