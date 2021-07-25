@@ -156,31 +156,31 @@ main ul li {
   font-size: 0.8rem;
 }
 
-.main-left {
+main .main-left {
   margin-left: 25%;
 }
 
-.main-middle {
+main .main-middle {
   margin-left: 50%;
 }
 
-.main-middle-text {
+main .main-middle-text {
   margin-left: 25%;
 }
 
-.main-right {
+main .main-right {
   margin-left: 75%;
 }
 
-.main-right-text {
+main .main-right-text {
   margin-left: 50%;
 }
 
-.main-right-max {
+main .main-right-max {
   margin-left: 95%;
 }
 
-.main-right-max-text {
+main .main-right-max-text {
   margin-left: 70%;
 }
 /*# sourceMappingURL=style.css.map */
