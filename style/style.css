@@ -10,7 +10,7 @@
 }
 
 body {
-  height: 200vh;
+  height: 300vh;
   width: 100vw;
   overflow-x: hidden;
   background-color: antiquewhite;
@@ -125,9 +125,9 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
-  height: 50%;
+  height: 45%;
   padding: 0 2rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 main .roadmap-card {
@@ -138,7 +138,6 @@ main .roadmap-card {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 30rem;
   width: 100%;
 }
 
@@ -163,7 +162,7 @@ main h2, main h4 {
 
 main ul li {
   list-style: none;
+  line-height: 1.2rem;
   font-size: 0.8rem;
-  margin-bottom: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */
